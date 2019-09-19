@@ -4,7 +4,7 @@
 int main()
 {
 
-        
+        while(1){
         GPFCON = GPFCON & 0xFFFFFF3F;  //led 1 and light off it
         GPFCON = GPFCON | 0x00000040;
         GPFDAT = GPFDAT & 0xFFFFFFF7;
